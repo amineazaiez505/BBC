@@ -1,0 +1,75 @@
+body {
+	margin:0;
+	font-family:helvetica,arial,sans-serif;
+}
+
+
+#topbar {
+	background-color:#7A0000;
+	width:100%;
+	height:50px;
+	color:white;
+}
+
+.fixedwidth {
+	width:1200px;
+	margin:0 auto;
+	
+	
+}
+
+#toplogo {
+	padding-top:8px;
+	float:left;
+	border-right:2px solid #990000;
+	padding-right:15px;
+}
+
+#signin {
+	font-weight:bold;
+	font-size:15px;
+	border-right:2px solid #990000;
+	float:left;
+	padding:10px 100px 10px 10px;
+}
+#signin img {
+	position:relative;
+	top:5px;
+}
+
+.topmenue {
+	float:left;
+	
+}
+.topmenue  lu {
+	margin:0;
+
+
+}
+.topmenue  li {
+	list-style:none;
+	font-weight:bold;
+	font-size:15 px;
+	float:left;
+	padding-right:20px;
+	padding-left:20px;
+	border-right:2px solid #990000;
+	height:100%;
+
+
+}
+#search {
+	float:left;
+	
+}
+#search input {
+	height:20px;
+	position:relative;
+	top:12px;
+	padding-left:8px;
+	font-weight:bold;
+	font-size:15px;
+	background-image:url("../img/search.PNG");
+	background-repeat:no-repeat;
+	background-position:right center;
+	}
